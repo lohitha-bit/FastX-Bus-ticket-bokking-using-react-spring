@@ -1,0 +1,27 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+/* Root level styles */
+html, body, #root {
+  height: 100%;
+  font-family: 'Segoe UI', 'Outfit', sans-serif;
+  background: #fafafa;
+  color: #1a1a1a;
+  font-size: 16px;
+}
+/* Ant Design checkbox adjustments */
+.white-checkbox-group .ant-checkbox-wrapper {
+  color: #222 !important;
+}
+.white-checkbox-group .ant-checkbox-inner {
+  background-color: white;
+  border-color: #999;
+}
+.white-checkbox-group .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #2a9d8f;
+  border-color: #2a9d8f;
+}

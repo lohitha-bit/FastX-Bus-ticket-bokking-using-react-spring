@@ -1,0 +1,46 @@
+.payment-page-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e0033, #3a004f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.payment-card {
+  background: #f8f0fa;
+  border-radius: 12px;
+  padding: 30px;
+  width: 100%;
+  max-width: 550px;
+  box-shadow: 0 0 20px rgba(187, 106, 224, 0.6);
+}
+
+.title-purple {
+  color: #6a0dad;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.confirm-btn {
+  width: 100%;
+  background-color: #6a0dad;
+  color: white;
+  font-weight: bold;
+  height: 45px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.confirm-btn:hover {
+  background-color: #5800a1;
+}

@@ -1,0 +1,50 @@
+/* Navbar background gradient */
+.navbar-gradient {
+  background: linear-gradient(135deg, #300040, #6b008c);
+  border-radius: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border: none;
+}
+
+/* Header item (FastX text) */
+.navbar-header {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ffffff !important;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/* Prevent header hover color change */
+.navbar-header.no-hover:hover {
+  color: #ffffff !important;
+}
+
+/* General nav item styles */
+.navbar-item {
+  color: #ffffff !important;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.8em 1em !important;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+.navbar-item:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #ffe6ff !important;
+  border-radius: 8px;
+}
+
+/* Pink logout button customization */
+.ui.pink.button {
+  background-color: #ff4db8 !important;
+  color: white;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 4px 10px rgba(255, 77, 184, 0.3);
+}
+
+.ui.pink.button:hover {
+  background-color: #e60073 !important;
+}
