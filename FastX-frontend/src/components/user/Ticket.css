@@ -1,0 +1,103 @@
+.ticket-page-container {
+  display: flex;
+  justify-content: center;
+  padding: 3em 1em;
+  min-height: 100vh;
+}
+
+.ticket-card {
+  max-width: 800px;
+  width: 100%;
+  padding: 2em;
+  border-radius: 10px;
+  background-color: #f5f0fb;
+  box-shadow: 0 4px 20px rgba(107, 0, 140, 0.2);
+}
+
+.success-title {
+  color: #6B008C;
+  text-align: center;
+}
+
+.sub-text {
+  display: block;
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+}
+
+.booking-info {
+  font-size: 16px;
+  line-height: 2;
+  color: #333;
+}
+
+.passenger-title {
+  color: #6B008C;
+  margin-bottom: 10px;
+}
+
+.ticket-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.print-btn {
+  border-color: #6B008C;
+  color: #6B008C;
+}
+
+.print-btn:hover {
+  background-color: #f2e8f8 !important;
+  color: #6B008C !important;
+}
+
+.home-btn {
+  background-color: #6B008C;
+  border-color: #6B008C;
+}
+
+.home-btn:hover {
+  background-color: #58006f !important;
+  border-color: #58006f !important;
+}
+
+/* Print Styling */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .ticket-card, .ticket-card * {
+    visibility: visible;
+  }
+
+  .ticket-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+  }
+
+  .ticket-buttons {
+    display: none !important;
+  }
+
+  .ticket-page-container {
+    padding: 0 !important;
+    background: white;
+  }
+
+  .ant-divider-horizontal {
+    margin: 8px 0 !important;
+  }
+
+  .ant-typography {
+    color: black !important;
+  }
+}

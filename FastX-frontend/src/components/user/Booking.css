@@ -1,0 +1,62 @@
+.booking-page-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e0033, #3a004f);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 40px;
+}
+
+.booking-card {
+  background: #f8f0fa !important;
+  color: white;
+  border-radius: 12px;
+  padding: 24px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 0 20px rgba(187, 106, 224, 0.6);
+}
+
+.title-purple {
+  color: #6a0dad;
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.label {
+  color: #6a0dad;
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  min-width: 140px;
+}
+
+.ant-typography {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.divider {  
+  margin: 20px 0;
+  border-top: 2px solid #e2d8f4;
+}
+
+.confirm-btn {
+  width: 100%;
+  background-color: #6a0dad;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  height: 45px;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.confirm-btn:hover,
+.confirm-btn:focus {
+  background-color: #9c27b0 !important;
+  border-color: #9c27b0 !important;
+  color: white !important;
+}

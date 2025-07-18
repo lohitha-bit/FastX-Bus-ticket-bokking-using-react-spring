@@ -1,0 +1,88 @@
+
+.home-wrapper {
+  background: linear-gradient(to bottom right, #f4f4f8, #ffffff);
+  color: #1a1a1a;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(to right, #ffffff, #e6f7fa);
+}
+.hero-title {
+  color: #1f1f1f !important;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.hero-subtitle {
+  color: #333333;
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+}
+/* SEARCH FORM */
+.search-container {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: -3rem auto 3rem auto;
+  max-width: 900px;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+.search-field {
+  width: 200px !important;
+}
+.search-btn {
+  background-color: #2a9d8f !important;
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  border-radius: 6px;
+}
+.search-btn:hover {
+  background-color: #1a7a72 !important;
+}
+/* WHY CHOOSE US */
+.why-section {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #f0f0f5;
+}
+.section-title {
+  color: #2d2d2d;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+.reason-card {
+  background: #ffffff;
+  color: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 10px;
+  height: 100%;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+.reason-card:hover {
+  transform: scale(1.05);
+}
+.check-icon {
+  font-size: 2rem;
+  color: #2a9d8f;
+  margin-bottom: 0.5rem;
+}
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #eeeeee;
+  color: #444444;
+  font-size: 0.9rem;
+}

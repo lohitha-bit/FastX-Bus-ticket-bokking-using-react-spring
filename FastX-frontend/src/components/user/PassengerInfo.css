@@ -1,0 +1,30 @@
+.passenger-info-container {
+  max-width: 600px;
+  margin: 4em auto;
+}
+
+.passenger-card {
+  background-color: #fdf6ff;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #e5d1fa;
+}
+
+.title-purple {
+  color: #6B008C;
+  text-align: center;
+}
+
+.passenger-form-group {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #f0e6ff;
+  border-radius: 8px;
+  background-color: #fff9ff;
+}
+
+.confirm-btn {
+  background-color: #6B008C;
+  border-color: #6B008C;
+  font-weight: bold;
+}
